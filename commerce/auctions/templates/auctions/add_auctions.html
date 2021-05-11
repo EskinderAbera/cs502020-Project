@@ -1,0 +1,18 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+{% block body %}
+
+<div class="container">
+    <div class="add-auction">
+        <h2 class="title">Add Listing</h2>
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="btn-right">
+                <input class="btn btn-outline-auction" type="submit" value="Create">
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

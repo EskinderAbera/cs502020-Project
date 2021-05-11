@@ -1,0 +1,219 @@
+body{
+  background-color: #f5f5f5;
+}
+
+.name-page {
+  font-size: 40px;
+  font-family: 'Syne Mono', monospace;
+  color: black;
+}
+
+.name-page:hover {
+  text-decoration: none;
+  color: #595959;
+}
+
+.comment {
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-comment {
+  margin-top: 40px;
+}
+
+#watchListTotal {
+  background: #0e61c7;
+  border-radius: 0.8em;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  width: 26px;
+  color: white;
+}
+
+#product{
+  padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,500&display=swap');
+.product-title{
+  font-family: 'DM Mono', monospace;
+  font-size: 26px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+.product-description{
+  font-family: 'DM Mono', monospace;
+}
+
+.product-category{
+  position: absolute;
+  top: 8px;
+  right: 30px;
+}
+
+.product-user{
+  position: absolute;
+  bottom: -4px;
+  left: 30px;
+}
+
+.product-date{
+  position: absolute;
+  bottom: -4px;
+  right: 30px;
+}
+
+.category-link{
+  color: black !important;
+  text-shadow: 1px 0px 0px #000000;
+}
+
+.category-link:hover{
+  color: grey !important;
+}
+
+.button-auction{
+  color: white;
+  background-color: black;
+  margin-right: 4px;
+}
+
+.product-bid{
+  font-family: 'DM Mono', monospace;
+}
+
+.product{
+  margin: 0px !important;
+}
+
+.acution-description{
+  background-color: white;
+  border: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#addBid{
+  margin-left: 16px;
+}
+
+.nav-top{
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.categories{
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 10px;
+  background-color: white !important;
+}
+
+.list-details{
+  text-align: center;
+}
+
+.btn-auction{
+  margin-top: 10px;
+  background-color: #0e61c7;
+  color: white;
+}
+
+.btn-outline-auction{
+  border: 1px solid #0e61c7;
+  color: #0e61c7;
+}
+
+.btn-outline-auction:hover{
+  background-color: #0e61c7;
+  color: white;
+}
+
+.btn-auction:hover{
+  color: #e3e3e3;
+}
+
+.dropdown{
+  list-style: none !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.dropdown-item:active{
+  background-color: #0e61c7;
+}
+
+.btn-right{
+  text-align: right;
+}
+
+.btn-middle{
+  text-align: center;
+}
+
+.btn-send-comment{
+  margin-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+.comment-cont{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.btn-card{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.btn-card:hover{
+  background-color: #404040;
+  color: white;
+}
+
+.deleteFromWatchlist{
+  margin-top: 20px;
+}
+
+.login, .register, .add-auction{
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  margin-top: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.message{
+  margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@700&display=swap');
+.title{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Syne Mono', monospace;
+}
+
+.nav-link{
+  text-align: center;
+}
+
+.empty{
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  font-size: 40px;
+  font-family: 'Syne Mono', monospace;
+}
