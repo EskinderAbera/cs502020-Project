@@ -16,9 +16,10 @@ Project 	Name 	      Description
 2         Commerce 	  Design an eBay-like e-commerce auction site 
 3         Mail        Design a front-end for an email client that makes API calls to send and receive emails.
 
-| Project     | Name       | Description                                                                             |
-| :-------:   |:---------: | :-----------                                                                            |
-| 0           |Search      |  Design a front-end for Google Search, Google Image Search, and Google Advanced Search. |
+| Project     | Name       | Description                                                                             | 
+| :-------:   |:---------: | :-----------                                                                            | 
+| 0           |Search      | Design a front-end for Google Search, Google Image Search, and Google Advanced Search.  | 
+| 1           |Wiki        | Design a Wikipedia-like online encyclopedia.                                            |
 | 2           |Commerce    | Design an eBay-like e-commerce auction site                                             |
 | 3           |Mail        | Design a front-end for an email client that makes API calls to send and receive emails. |
 
